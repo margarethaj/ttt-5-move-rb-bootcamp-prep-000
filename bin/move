@@ -9,4 +9,3 @@ moveNum = gets.chomp.to_i
 if moveNum < 1 && moveNum > 9
   moveNum = -1
 end
-puts "its #{moveNum}"
