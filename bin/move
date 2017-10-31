@@ -7,4 +7,6 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 moveInput = gets.strip
 move = input_to_index(moveInput)
-move(board, move)
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = move(board, move)
