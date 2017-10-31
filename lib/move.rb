@@ -14,5 +14,5 @@ def input_to_index(input_to_index)
   else
     input_to_index = input_to_index.to_i
   end
-  return input_to_index.to_i
+  return input_to_index
 end
