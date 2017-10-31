@@ -12,8 +12,7 @@ def input_to_index(input_to_index)
   return input_to_index
 end
 
-board = [" "," "," "," "," "," "," "," "," "]
-def move(board = board, index = -1, value = "X")
+def move(board, index = -1, value = "X")
   if(index > -1 && index < 9)
     board[index] = value;
   end
