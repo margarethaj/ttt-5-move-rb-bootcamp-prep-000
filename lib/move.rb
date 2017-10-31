@@ -12,7 +12,7 @@ def input_to_index(input_to_index)
   if(input_to_index.to_i < 1 && input_to_index > 9)
     input_to_index = "-1"
   else
-    input_to_index = input_to_index.to_i
+    input_to_index = input_to_index.to_i - 1
   end
   return input_to_index
 end
