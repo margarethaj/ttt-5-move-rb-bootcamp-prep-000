@@ -7,4 +7,4 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 moveNum = gets.chomp
 
-return "its #{moveNum}"
+puts "its #{moveNum}"
