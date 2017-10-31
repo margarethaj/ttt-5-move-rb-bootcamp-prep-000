@@ -10,3 +10,4 @@ move = input_to_index(moveInput)
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 board = move(board, move)
+display_board(board)
