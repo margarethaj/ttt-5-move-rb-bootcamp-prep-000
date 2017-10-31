@@ -9,5 +9,8 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(input_to_index)
+  if(input_to_index.to_i < 1 && input_to_index > 9)
+    input_to_index = -1
+  end
   return input_to_index.to_i
 end
