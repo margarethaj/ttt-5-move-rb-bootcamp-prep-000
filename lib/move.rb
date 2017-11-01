@@ -12,7 +12,6 @@ def input_to_index(input_to_index)
   return input_to_index
 end
 
-
 def move(board, index, value = "X")
   if(index > -1 && index < 9)
     board[index] = value;
