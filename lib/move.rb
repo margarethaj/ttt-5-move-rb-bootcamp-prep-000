@@ -18,3 +18,7 @@ def move(board, index, value = "X")
   end
   return board
 end
+
+def board
+  return [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+end
