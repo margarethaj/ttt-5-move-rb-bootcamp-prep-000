@@ -14,9 +14,6 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def move(board = board, index = -1, value = "X")
-  if(board == nil)
-    board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  end
   if(index > -1 && index < 9)
     board[index] = value;
   end
